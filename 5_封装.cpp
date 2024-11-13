@@ -27,7 +27,7 @@ struct s
 private:
 
 
-}
+};
 int main()
 {
     Student s1;
