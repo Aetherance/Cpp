@@ -24,6 +24,7 @@ int main()
 
     int n = 10;
     const int & ref = 10;   //编译器修改优化 
+    const int & p = n;
     return 0;
 }
 
