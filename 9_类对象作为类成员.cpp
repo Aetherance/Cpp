@@ -29,9 +29,5 @@ int main()
 {
     Person p(name,name);
 
-
-
-
-
     return 0;
 }
