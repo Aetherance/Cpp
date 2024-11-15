@@ -23,7 +23,6 @@ public:
     }
     string m_name;
     Phone p1;
-
 };
 int main()
 {
@@ -31,3 +30,5 @@ int main()
 
     return 0;
 }
+
+//一个类中的哪条语句最先被执行?
