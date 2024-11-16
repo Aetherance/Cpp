@@ -24,7 +24,6 @@ public:
 //     return temp;
 // }
 
-
 int main()
 {
     person p1,p2;
