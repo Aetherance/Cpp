@@ -10,11 +10,7 @@ public:
     {
         cout<<test<<endl;
     }
-
-
 };
-
-
 
 int main()
 {
@@ -22,10 +18,8 @@ int main()
     print("hello world");
 
 
-
-
-
-
-
+ 
     return 0;
 }
+
+//由于 () 重载在使用时非常像一个函数 将其称为仿函数
