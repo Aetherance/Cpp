@@ -242,3 +242,25 @@ my_integer& operator++(int)  //在()里写int以表明这是一个后置递增
 ```
 ## 2. 继承
 ### 基本语法
+
+*继承可以减少重复的代码。*
+
+```cpp
+class Base      // 父类 (基类)
+{
+    void func()
+    {
+        cout<<"func()"<<endl;
+    }
+};
+
+class byBase : public Base  // 子类 (派生类)
+{
+    void func2()
+    {
+        cout<<"func2()"<<endl;
+    }
+};
+```
+类 `byBase` 会继承 类 `Base` 的函数 `func()` 从而拥有两个成员函数 `func()` 和 `func2()`
+
