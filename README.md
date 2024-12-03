@@ -448,3 +448,16 @@ template<typename T>
 template: 声明创建模板
 typename: 表明T是数据类型的名称 可以用class替代
 T 是可以替换的数据类型 (自定义)
+
+***
+
+
+
+未完待续
+
+
+
+***
+
+## STL
+
