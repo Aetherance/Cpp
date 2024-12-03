@@ -30,15 +30,18 @@ void doSpeak(Animal & ani)
 
 }
 
+void test02()
+{
+    cout<<sizeof(Animal);
+}
+
 int main()
 {
     Cat cat;
     cat.speak();
     doSpeak(cat);
 
-
-
-
+    test02();
 
 
 
