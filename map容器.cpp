@@ -6,7 +6,7 @@ int main()
 {
     map<int,int> m;
     m.insert(pair(10,20));
-    m.insert(pair(12,20));
+    m.insert(pair(10,20));
     m.insert(pair(11,20));
     m.insert(pair(15,20));
 
