@@ -36,8 +36,5 @@ int main()
     s1.change_car("Lanber");
     cout<<s1.get_car()<<endl;
 
-
-
-
     return 0;
 }
