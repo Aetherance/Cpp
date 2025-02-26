@@ -28,4 +28,3 @@ for(int num : v)
     cout<<num<<endl;
 }
 ```
-
