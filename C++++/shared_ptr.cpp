@@ -17,10 +17,7 @@ private:
 int main() {
 
     shared_ptr<test>ptr = make_shared<test>(test());
-
-    shared_ptr<test>ptr1 = ptr;
-
-    shared_ptr<test>ptr2 = ptr1;
+    shared_ptr<test>ptr1 = make_shared<test>(test());
 
     cout<<ptr.use_count()<<endl;
 
